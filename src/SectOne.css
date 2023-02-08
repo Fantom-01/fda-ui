@@ -1,0 +1,36 @@
+@import url('./assets/fa/css/all.css');
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --dark: rgb(33, 34, 69);
+  --red: #DF2020;
+  --pink: #fde4e4;
+
+  color-scheme: light dark;
+  color: var(--dark);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+.sect1{
+  padding: 10px 130px;
+  margin-top: 60px;
+}
+.sect1--container{
+  display: flex;
+  gap: 30px;
+}
+.sect1--item{
+  display: flex;
+  background-color: var(--pink);
+  padding: 30px 140px 30px 30px;
+}

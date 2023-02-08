@@ -3,7 +3,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  text-size-adjust: 100%;
 
   --dark: rgb(33, 34, 69);
   --red: #DF2020;
@@ -21,12 +20,15 @@
 *{
   box-sizing: border-box;
 }
+body{
+  background-color: #fcfcfc;
+}
 nav{
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 100px;
+  padding: 10px 130px;
 }
 .nav--logo--div{
   display: flex;
@@ -69,10 +71,14 @@ nav{
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 60px 100px;
+  padding: 60px 130px;
   margin: 0;
 }
-.header--div{
+.header--div1{
+  width: 50%;
+  padding: 70px 0 0;
+}
+.header--div2{
   width: 50%;
 }
 .hero--img{
@@ -80,12 +86,72 @@ nav{
   height: 546px;
 }
 .header--h5{
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   font-family: "RocknRoll One", sans-serif;
-  color: var(--red);
+  margin: 0 0 16px;
 }
 .header--hungry{
-  font-size: 40px;
-  font-family: 'RocknRoll';
+  font-size: 60px;
+  font-family: 'RocknRoll', sans-serif;
   color: var(--red);
+}
+.header--h1{
+  font-size: 60px;
+  margin: 0;
+  line-height: 70px;
+}
+.header--p{
+  line-height: 40px;
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #4b4b4b;
+}
+.header--btn1{
+  padding: 15px 25px;
+  background-color: var(--red);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  margin-right: 60px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.header--btn1:hover{
+  background-color: var(--dark);
+}
+.header--btn2{
+  padding: 15px 25px;
+  background-color: white;
+  color: var(--red);
+  text-decoration: none;
+  border: 1px solid var(--red);
+  border-radius: 8px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.header--btn2:hover{
+  color: white;
+  background-color: var(--red);
+}
+.header--iconDiv{
+  margin-top: 45px;
+  display: flex;
+  gap: 80px;
+}
+.icon-text{
+  color: var(--dark);
+  font-weight: 600;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.header--icon{
+  color: white;
+  background-color: var(--red);
+  border: none;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-size: 18px;
 }

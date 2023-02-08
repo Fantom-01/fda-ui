@@ -1,9 +1,11 @@
 import React from "react";
 import logo from "../assets/res-logo.png";
+import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 
 const navbar = () => {
-
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
       <nav>
@@ -12,10 +14,10 @@ const navbar = () => {
           <caption className="logo--caption">Tasty Treat</caption>
         </div>
         <div className="nav--links">
-          <a className="nav--a" href="#">Home</a>
-          <a className="nav--a" href="#">Food</a>
-          <a className="nav--a" href="#">Cart</a>
-          <a className="nav--a" href="#">Contact</a>
+          <a className="nav--a" to="/home">Home</a>
+          <a className="nav--a" to="/home">Food</a>
+          <a className="nav--a" to="/home">Cart</a>
+          <a className="nav--a" to="/home">Contact</a>
         </div>
         <div className="nav--icon">
           <a href="#"><i class="fas fa-basket-shopping"></i></a>
