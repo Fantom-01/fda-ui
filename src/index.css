@@ -1,0 +1,91 @@
+@import url('./assets/fa/css/all.css');
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-size-adjust: 100%;
+
+  --dark: rgb(33, 34, 69);
+  --red: #DF2020;
+
+  color-scheme: light dark;
+  color: var(--dark);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+nav{
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+.nav--logo--div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 100px;
+}
+.logo--caption{
+  font-size: 20px;
+  font-weight: 700;
+}
+.nav--links{
+  display: flex;
+  gap: 3rem;
+}
+.nav--a{
+  text-decoration: none;
+  color: var(--dark);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.nav--a:hover{
+  color: var(--red);
+}
+.nav--a:active{
+  color: var(--red);
+}
+.nav--icon{
+  display: flex;
+  gap: 1.5rem;
+}
+.fas{
+  font-size: 1.3rem;
+}
+
+.header{
+  height: 586px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 60px 100px;
+  margin: 0;
+}
+.header--div{
+  width: 50%;
+}
+.hero--img{
+  width: 546px;
+  height: 546px;
+}
+.header--h5{
+  font-size: 1.25rem;
+  font-family: "RocknRoll One", sans-serif;
+  color: var(--red);
+}
+.header--hungry{
+  font-size: 40px;
+  font-family: 'RocknRoll';
+  color: var(--red);
+}
