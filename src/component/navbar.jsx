@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/res-logo.png";
-import { NavLink } from "react-router-dom";
+
+
 import { useState } from "react";
 
 
@@ -14,10 +15,12 @@ const navbar = () => {
           <caption className="logo--caption">Tasty Treat</caption>
         </div>
         <div className="nav--links">
-          <a className="nav--a" to="/home">Home</a>
-          <a className="nav--a" to="/home">Food</a>
-          <a className="nav--a" to="/home">Cart</a>
-          <a className="nav--a" to="/home">Contact</a>
+
+          
+          <a className="nav--a" exact to="/">Home</a>
+          <a className="nav--a" href="/food">Food</a>
+          <a className="nav--a" href="/cart">Cart</a>
+          <a className="nav--a" href="/contact">Contact</a>
         </div>
         <div className="nav--icon">
           <a href="#"><i class="fas fa-basket-shopping"></i></a>
