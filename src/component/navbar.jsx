@@ -17,14 +17,14 @@ const navbar = () => {
         <div className="nav--links">
 
           
-          <a className="nav--a" exact to="/">Home</a>
+          <a className="nav--a" exact href="/">Home</a>
           <a className="nav--a" href="/food">Food</a>
           <a className="nav--a" href="/cart">Cart</a>
           <a className="nav--a" href="/contact">Contact</a>
         </div>
         <div className="nav--icon">
-          <a href="#"><i class="fas fa-basket-shopping"></i></a>
-          <a href="#"><i class="fas fa-user"></i></a>
+          <a href="#" className="nav--a"><i class="fas fa-basket-shopping"></i></a>
+          <a href="#" className="nav--a"><i class="fas fa-user"></i></a>
         </div>
       </nav>
     </>
