@@ -3,16 +3,16 @@ footer{
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 60px 130px;
+    padding: 30px 130px;
 }
 .footer--one{
     display: flex;
 }
 .footer--one div{
     width: 25%;
-    padding: 5px 15px;
+    /* padding: 5px 15px; */
 }
-.footer--one div p{
+.footer--one--div--p{
     color: black;
     font-size: 20px;
     font-weight: 400;
@@ -23,11 +23,20 @@ footer{
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100px;
+  height: 80px;
 }
 .footer--logo--caption{
   font-size: 20px;
+  white-space: nowrap;
   font-weight: 700;
+  padding-left: 10px;
+}
+.footer--caption--p{
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    margin-top: 20px;
 }
 .newsletter{
     padding-right: 270px;
@@ -54,4 +63,38 @@ footer{
     padding: 5px 30px;
     border-radius: 5px;
     color: white;
+}
+
+/*********************************************/
+
+.footer--two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #df2020;
+    margin-top: 30px;
+}
+.footer--two p{
+    color: #df2020;
+}
+.footer--two ul{
+    display: flex;
+    flex-direction: row;
+}
+.footer--two ul a{
+    color: #df2020;
+}
+.footer--two ul a:hover{
+    color: #212245;
+}
+.footer--two ul li{
+    font-size: 22px;
+    margin-left: 10px;
+}
+.footer--two ul  li:first-child{
+    color: black;
+}
+.footer--h5{
+    font-size: 20px;
+    font-weight: 600;
 }

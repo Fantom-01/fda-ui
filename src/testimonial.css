@@ -1,0 +1,44 @@
+
+.testimonial{
+    background-color: #fcfcfc;
+    width: 100%;
+    display: flex;
+    padding: 20px 130px;
+    height: 560px;
+    margin-top: 60px;
+}
+.testimonial--text--div{
+    width: 50%;
+    position: relative;
+    top: -110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.testimonial--text--div h5{
+    color: #DF2020;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.testimonial--text--div p{
+    color: rgb(119, 119, 119);
+    line-height: 40px;
+    font-size: 20px;
+}
+.testimonial--text--div h2{
+    margin: 25px 0;
+    font-size: 2.5rem;
+}
+.testimonial--image{
+    /* background-image: url('./assets/network.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll; */
+    width: 50%;
+}
+.testimonial--image img{
+    width: 100%;
+    position: relative;
+    top: -150px;
+}
