@@ -1,77 +1,132 @@
-import item1 from './images/item-1.jpeg';
+import item1 from './images/chickenburger.jpg';
+import item2 from './images/vegpizza.jpg';
+import item3 from './images/cheesepizza.jpg';
+import item4 from './images/maxicanpizza.jpg';
+import item5 from './images/cheeseburger.jpg';
+import item6 from './images/Royalcheeseburger.jpg';
+import item7 from './images/seafoodpizza.jpg';
+import item8 from './images/mushroompizza.jpg';
+import item9 from './images/thincheesepizza.jpg';
+import item10 from './images/classichamburger.jpg';
+import item11 from './images/bread(1).png';
+import item12 from './images/bread(2).png';
+import item13 from './images/bread(3).png';
 
 const menu = [
   {
-    id: 1,
-    title: 'buttermilk pancakes',
-    category: 'breakfast',
-    price: 15.99,
-    img: {item1},
-    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+    id: "01",
+    title: "Chicken Burger",
+    price: 24.0,
+    img: item1,
+    category: "Burger",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+  },
+
+  {
+    id: "02",
+    title: "Vegetarian Pizza",
+    price: 115.0,
+    img: item2,
+    category: "Pizza",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+
+  {
+    id: "03",
+    title: "Double Cheese Margherita",
+    price: 110.0,
+    img: item3,
+    category: "Pizza",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+
+  {
+    id: "04",
+    title: "Maxican Green Wave",
+    price: 110.0,
+    img: item4,
+    category: "Pizza",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+
+  {
+    id: "05",
+    title: "Cheese Burger",
+    price: 24.0,
+    img: item5,
+    category: "Burger",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
-    id: 2,
-    title: 'diner double',
-    category: 'lunch',
-    price: 13.99,
-    img: './images/item-2.jpeg',
-    desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
+    id: "06",
+    title: "Royal Cheese Burger",
+    price: 24.0,
+    img: item6,
+    category: "Burger",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
+
   {
-    id: 3,
-    title: 'godzilla milkshake',
-    category: 'shakes',
-    price: 6.99,
-    img: './images/item-3.jpeg',
-    desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+    id: "07",
+    title: "Seafood Pizza",
+    price: 115.0,
+    img: item7,
+    category: "Pizza",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
+
   {
-    id: 4,
-    title: 'country delight',
-    category: 'breakfast',
-    price: 20.99,
-    img: './images/item-4.jpeg',
-    desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
+    id: "08",
+    title: "Thin Cheese Pizza",
+    price: 110.0,
+    img: item8,
+    category: "Pizza",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
+
   {
-    id: 5,
-    title: 'egg attack',
-    category: 'lunch',
-    price: 22.99,
-    img: './images/item-5.jpeg',
-    desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
+    id: "09",
+    title: "Pizza With Mushroom",
+    price: 110.0,
+    img: item9,
+    category: "Pizza",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
+
   {
-    id: 6,
-    title: 'oreo dream',
-    category: 'shakes',
-    price: 18.99,
-    img: './images/item-6.jpeg',
-    desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
+    id: "10",
+    title: "Classic Hamburger",
+    price: 24.0,
+    img: item10,
+    category: "Burger",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
+
   {
-    id: 7,
-    title: 'bacon overflow',
-    category: 'breakfast',
-    price: 8.99,
-    img: './images/item-7.jpeg',
-    desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
+    id: "11",
+    title: "Crunchy Bread ",
+    price: 35.0,
+    img: item11,
+    category: "Bread",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
+
   {
-    id: 8,
-    title: 'american classic',
-    category: 'lunch',
-    price: 12.99,
-    img: './images/item-8.jpeg',
-    desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
+    id: "12",
+    title: "Delicious Bread ",
+    price: 35.0,
+    img: item12,
+    category: "Bread",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
+
   {
-    id: 9,
-    title: 'quarantine buddy',
-    category: 'shakes',
-    price: 16.99,
-    img: './images/item-9.jpeg',
-    desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+    id: "13",
+    title: "Loaf Bread ",
+    price: 35.0,
+    img: item13,
+    category: "Bread",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
 ];
 export default menu;
