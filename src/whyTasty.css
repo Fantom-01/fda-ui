@@ -1,0 +1,49 @@
+.whyTasty{
+    padding: 60px 130px;
+    /* background-color: aquamarine; */
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+.whyTastydiv1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whyTastydiv2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.whyTasty div h2{
+    font-size: 50px;
+    text-align: left;
+}
+.deliveryPng{
+    width: 100%;
+}
+.whyTastyText{
+    flex-direction: column;
+}
+.whyTastyP{
+    margin: 30px 0;
+    font-size: 21px;
+    line-height: 34px;
+    color: rgb(119, 119, 119);
+}
+.whyListText p{
+    font-size: 19px;
+    color: rgb(119, 119, 119);
+    margin-top: 10px;
+}
+.whyListText h5{
+    color: rgb(33, 37, 41);
+    font-size: 19px;
+}
+.fa-check-circle{
+    color: red;
+    font-size: 18px;
+    margin-right: 10px;
+}
