@@ -154,3 +154,24 @@ nav{
   border-radius: 20px;
   font-size: 18px;
 }
+
+
+@media screen and (max-width: 1395px) {
+  .header {
+    background-color: lightgreen;
+  }
+  .header--iconDiv{
+    margin-bottom: 20px;
+    z-index: 1;
+  }
+  .hero--img{
+    width: 530px;
+    height: 530px;
+  }
+  .header--btn2{
+    display: block;
+    margin-top: 25px;
+    width: max-content;
+    margin-bottom: -60px;
+  }
+}
