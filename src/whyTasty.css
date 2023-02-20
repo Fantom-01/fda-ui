@@ -1,6 +1,5 @@
 .whyTasty{
     padding: 60px 130px;
-    /* background-color: aquamarine; */
     margin-bottom: 130px;
     display: flex;
     flex-direction: row;
@@ -46,4 +45,20 @@
     color: red;
     font-size: 18px;
     margin-right: 10px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1145px) {
+    .whyTasty{
+        flex-direction: column;
+        margin-bottom: 900px;
+        margin-top: -200px;
+        width: 100%;
+    }
+    .whyTastydiv1{
+        width: 100%;
+    }
+    .whyTastydiv2{
+        width: 100%;
+    }
 }

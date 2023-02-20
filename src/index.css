@@ -157,9 +157,6 @@ nav{
 
 
 @media screen and (max-width: 1395px) {
-  .header {
-    background-color: lightgreen;
-  }
   .header--iconDiv{
     margin-bottom: 20px;
     z-index: 1;
@@ -173,5 +170,16 @@ nav{
     margin-top: 25px;
     width: max-content;
     margin-bottom: -60px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header{
+    flex-direction: column;
+  }
+  .header--div1{
+    width: 100%;
+  }
+  .header--btn2{
+    margin-bottom: -40px;
   }
 }

@@ -40,12 +40,6 @@
   --max-width: 1170px;
   --fixed-width: 620px;
 }
-/*
-=============== 
-Global Styles
-===============
-*/
-
 *,
 ::after,
 ::before {
@@ -238,6 +232,19 @@ Menu
     grid-template-columns: 225px 1fr;
     gap: 0 1.25rem;
     max-width: 40rem;
+  }
+  .photo {
+    height: 175px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu-item {
+    /* grid-template-columns: 225px 1fr;
+    gap: 0 1.25rem;
+    max-width: 40rem; */
+    display: block;
+    width: 80%;
+    margin: 20px auto;
   }
   .photo {
     height: 175px;
