@@ -231,23 +231,41 @@ Menu
   .menu-item {
     grid-template-columns: 225px 1fr;
     gap: 0 1.25rem;
-    max-width: 40rem;
+    max-width: 35rem;
   }
   .photo {
     height: 175px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
+  .section-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .menu-item{
+    min-width: 280px;
+    max-width: 60%;
+  }
+}
+@media screen and (max-width: 900px) {
   .menu-item {
-    /* grid-template-columns: 225px 1fr;
-    gap: 0 1.25rem;
-    max-width: 40rem; */
     display: block;
-    width: 80%;
+    width: 40%;    
     margin: 20px auto;
   }
   .photo {
     height: 175px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .menu-item {
+    width: 80%;
+    transform: translateX(10%);
+  }
+  .btn-container{
+    overflow-x: scroll;
+    padding-left: 50px;
   }
 }
 @media screen and (min-width: 1200px) {

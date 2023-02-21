@@ -51,7 +51,7 @@
 @media screen and (max-width: 1145px) {
     .whyTasty{
         flex-direction: column;
-        margin-bottom: 900px;
+        margin-bottom: 1100px;
         margin-top: -200px;
         width: 100%;
     }
@@ -61,4 +61,17 @@
     .whyTastydiv2{
         width: 100%;
     }
+}
+
+@media screen and (max-width: 900px) {
+  .whyTasty{
+    padding: 10px 50px;
+    margin-bottom: 950px;
+}
+}
+@media screen and (max-width: 400px) {
+    .whyTasty{
+        padding: 10px 30px;
+        margin-bottom: 950px;
+  }
 }
