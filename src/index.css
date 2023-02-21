@@ -160,9 +160,12 @@ nav{
 
 
 @media screen and (max-width: 1395px) {
+  .header{
+    /* margin-bottom: 60px; */
+    height: max-content;
+  }
   .header--iconDiv{
-    margin-bottom: 20px;
-    z-index: 1;
+    /* margin-bottom: 50px; */
   }
   .header--div2{
     width: 50%;
@@ -185,6 +188,7 @@ nav{
   .header{
     flex-direction: column;
     padding: 10px 50px;
+    margin-bottom: -50px;
   }
   .header--div1{
     width: 100%;
