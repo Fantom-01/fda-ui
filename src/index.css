@@ -62,6 +62,9 @@ nav{
   display: flex;
   gap: 1.5rem;
 }
+#menu-icon{
+  display: none;
+}
 .fas{
   font-size: 1.3rem;
 }
@@ -182,4 +185,22 @@ nav{
   .header--btn2{
     margin-bottom: -40px;
   }
+  .hero--img{
+    width: 400px;
+    height: 400px;
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  .nav--a{
+    display: none;
+  }
+  #menu-icon{
+    display: block;
+  }
+}
+@media screen and (max-width: 350px) {
+  
 }

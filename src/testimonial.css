@@ -30,11 +30,6 @@
     font-size: 2.5rem;
 }
 .testimonial--image{
-    /* background-image: url('./assets/network.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll; */
     width: 50%;
 }
 .testimonial--image img{
@@ -59,4 +54,7 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
+}
+@media screen and (max-width: 350px) {
+    
 }
