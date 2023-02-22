@@ -101,14 +101,17 @@
   .sect1--container{
     margin: 120px auto 0 auto;
     width: 80vw;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
-    transform: translateX(-10%);
+    transform: translateX(-25%);
   }
   .sect1--item{
-    width: max-content;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: row;
   }
   .container2--text{
     text-align: center;
