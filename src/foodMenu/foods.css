@@ -1,0 +1,46 @@
+#foodpageheader{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url('./images/banner.9a360755.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 150px;
+    position: relative;
+    padding-left: 10%;
+}
+#overlay{
+    position: absolute;
+    background: linear-gradient(rgba(33, 34, 69, 0.698), rgb(33, 34, 69));
+    opacity: 1;
+    width: 100%;
+    height: 150px;
+    top: 0;
+    right: 0;
+}
+#foodpageheader h1{
+    font-size: 2.5rem;
+    color: white;
+    z-index: 1;
+}
+
+#searchsortfood{
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 30px;
+    justify-content: space-around;
+    margin-bottom: -80px;
+}
+
+#search--foods, #sort--foods {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(253, 228, 228);
+    border-image: initial;
+    border-radius: 5px;
+}
