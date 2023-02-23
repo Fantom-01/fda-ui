@@ -1,13 +1,10 @@
 import React from 'react'
-
-import NavBar from '../component/navbar.jsx'
-import Footer from '../component/footer.jsx'
+import Food from '../foodMenu/Main'
 
 const foodpage = () => {
   return (<>
-    <NavBar/>
     <div>foodpage</div>
-    <Footer/>
+    <Food/>
   </>
   )
 }

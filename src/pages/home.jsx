@@ -9,13 +9,11 @@ import Main from '../foodMenu/Main.jsx'
 function Home() {
   return (
     <>
-      <NavBar/>
       <Header/>
       <SectOne/>
       <Main/>
       <WhyTasty/>
       <Testimonial/>
-      <Footer/>
     </>
   )
 }

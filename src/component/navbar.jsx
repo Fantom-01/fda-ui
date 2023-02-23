@@ -4,6 +4,8 @@ import logo from "../assets/res-logo.png";
 import { useState } from "react";
 import { useEffect } from "react";
 
+import { Link } from 'react-router-dom'
+
 // START SHIT HERE!!!!!!!!!!!!!!!!!!!!!
 
 const Menu = () => {
@@ -17,10 +19,10 @@ const Menu = () => {
           </div>
 
           <div id="sidemenu-list">
-            <a href="#" class="sidemenu--links">Home</a>
-            <a href="#" class="sidemenu--links">Food</a>
-            <a href="#" class="sidemenu--links">Cart</a>
-            <a href="#" class="sidemenu--links">Contact</a>
+            <a class="sidemenu--links"><Link to="/">Home</Link></a>
+            <a class="sidemenu--links"><Link to="/food">Food</Link></a>
+            <a class="sidemenu--links"><Link to="/cart">Cart</Link></a>
+            <a class="sidemenu--links"><Link to="/contact">Contact</Link></a>
           </div>
       </section>
     </div>
@@ -42,10 +44,10 @@ const navbar = () => {
           <caption className="logo--caption">Tasty Treat</caption>
         </div>
         <div className="nav--links">
-          <a className="nav--a" exact href="/">Home</a>
-          <a className="nav--a" href="/food">Food</a>
-          <a className="nav--a" href="/cart">Cart</a>
-          <a className="nav--a" href="/contact">Contact</a>
+          <a className="nav--a" ><Link to="/">Home</Link></a>
+          <a className="nav--a" ><Link to="/food">Food</Link></a>
+          <a className="nav--a" ><Link to="/cart">Cart</Link></a>
+          <a className="nav--a" ><Link to="/contact">Contact</Link></a>
         </div>
         <div className="nav--icon">
           <a href="#" className="nav--a"><i class="fas fa-basket-shopping"></i></a>

@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom'
 import App from './App'
 import './index.css'
 import './assets/fa/css/all.css'
+import { BrowserRouter, Router, Route, Routes } from 'react-router-dom'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="*" element={<App/>} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
