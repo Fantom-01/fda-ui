@@ -11,9 +11,10 @@ const header = () => {
                 food at your door
             </h1>
             <p className='header--p'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magni delectus <br/> tenetur autem, sint veritatis!</p>
-            <a className='header--btn1' href="#">Order Now  </a>
-            <a className='header--btn2' href="#">See all foods</a>
-            <br />
+            <div className='header--btn'>
+              <a className='header--btn1' href="#">Order Now  </a>
+              <a className='header--btn2' href="#">See all foods</a>
+            </div>
             <div className='header--iconDiv'>
               <p className='icon-text'><i class="fas fa-car header--icon"></i>No shipping charge</p>
               <p className='icon-text'><i class="fas fa-shield-alt header--icon"></i>100% secure checkout</p>

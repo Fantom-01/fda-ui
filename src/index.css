@@ -108,8 +108,14 @@ nav{
   margin-bottom: 40px;
   color: #4b4b4b;
 }
+.header--btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
 .header--btn1{
-  padding: 15px 25px;
+  padding: 10px 15px 10px 15px;
   background-color: var(--red);
   color: white;
   text-decoration: none;
@@ -123,7 +129,7 @@ nav{
   background-color: var(--dark);
 }
 .header--btn2{
-  padding: 15px 25px;
+  padding: 10px 15px 10px 15px;
   background-color: white;
   color: var(--red);
   text-decoration: none;
@@ -175,9 +181,7 @@ nav{
   }
   .header--btn2{
     display: block;
-    margin-top: 25px;
     width: max-content;
-    margin-bottom: -60px;
   }
   #sidemenu{
     display: none;
@@ -191,9 +195,6 @@ nav{
   }
   .header--div1{
     width: 100%;
-  }
-  .header--btn2{
-    margin-bottom: -40px;
   }
   .header--div2{
     width: 100%;
@@ -267,40 +268,53 @@ nav{
     align-items: flex-start;
   }
   .nav--logo--div img{
-    width: 41px;
-    height: 41px;
+    width: 35px;
+    height: 35px;
   }
   .nav--logo--div caption{
-    font-size: 15px;
+    font-size: 13px;
+  }
+  .nav--icon{
+    font-size: 8px;
   }
   .nav--a{
-    font-size: .5rem;
+    font-size: 8px;
   }
   .header--div1{
     padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   .header--h5{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .header--h1{
-    font-size: 3rem;
+    font-size: 1.5rem;
     line-height: 1.2;
   }
   .header--p{
-    font-size: 1rem;
+    font-size: .8rem;
+    line-height: 25px;
+    color: #777;
   }
-  .header--btn1{
-    font-size: 1rem;
-    padding: 10px 20px;
+  .header--btn{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
   }
-  .header--btn2{
-    padding: 10px 20px;
-    font-size: 1rem;
+  .header--btn1, .header--btn2{
+    padding: 5px 15px;
+    font-size: .7rem;
+    border-radius: 5px;
+    margin: 0;
+    display: inline;
   }
   .header--iconDiv .icon-text{
-    font-size: 14px;
+    font-size: 12px;
   }
   .header--iconDiv .icon-text .header--icon{
-    font-size: 14px;
+    font-size: 12px;
   }
 }
