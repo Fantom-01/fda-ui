@@ -216,7 +216,7 @@ nav{
   }
   #sidemenu{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     position: fixed;
     top: 0;
     right: 0;
@@ -243,7 +243,7 @@ nav{
     flex-direction: column;
     gap: 15px;
     font-size: 1.3rem;
-    margin-bottom: 90%;
+    margin-bottom: 100%;
   }
   .sidemenu--links{
     color: black;
@@ -256,9 +256,51 @@ nav{
 @media screen and (max-width: 400px) {
   .nav{
     padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
   }
   .header{
     padding: 10px 30px;
     overflow-x: hidden;
+  }
+  .nav--logo--div{
+    align-items: flex-start;
+  }
+  .nav--logo--div img{
+    width: 41px;
+    height: 41px;
+  }
+  .nav--logo--div caption{
+    font-size: 15px;
+  }
+  .nav--a{
+    font-size: .5rem;
+  }
+  .header--div1{
+    padding-top: 0px;
+  }
+  .header--h5{
+    font-size: 1.2rem;
+  }
+  .header--h1{
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  .header--p{
+    font-size: 1rem;
+  }
+  .header--btn1{
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  .header--btn2{
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  .header--iconDiv .icon-text{
+    font-size: 14px;
+  }
+  .header--iconDiv .icon-text .header--icon{
+    font-size: 14px;
   }
 }

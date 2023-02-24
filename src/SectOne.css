@@ -134,15 +134,49 @@
 @media screen and (max-width: 400px) {
   .sect1{
     padding: 10px 30px;
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .sect1--container{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    transform: translateX(2%);
+    padding: 0;
+    gap: 20px;
   }
   .sect1--item{
-    width: max-content;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin-right: 0px;
+    padding-right: 70px;
   }
+  .sect1--item img{
+    width: 54px;
+    height: 54px;
+  }
+  .sect1--item h5{
+    font-size: 16px;
+  }
+  .sect1--container2{
+    margin-top: 50px;
+  }
+  .container2--text{
+    margin-bottom: 30px;
+  }
+  .container2--text h5{
+    font-size: 20px;
+  }
+  .container2--text h2{
+    font-size: 30px;
+  }
+  .container2--text p{
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
 }

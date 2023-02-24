@@ -15,7 +15,6 @@ const Menu = () => {
       <section className="transparent--half"></section>
       <section className="main--half">
           <div id="menu-icon-div">
-            {/* <a id="menu-icon" className="nav--a" onClick={() => setShow(false)}><i class="fas fa-bars"></i></a> */}
           </div>
 
           <div id="sidemenu-list">
