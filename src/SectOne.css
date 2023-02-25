@@ -131,7 +131,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 675px) {
   .sect1{
     padding: 10px 30px;
     margin-top: 0px;

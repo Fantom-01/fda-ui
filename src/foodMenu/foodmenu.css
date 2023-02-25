@@ -168,8 +168,8 @@ Menu
   border-radius: var(--radius);
 }
 .filter-btn:hover {
-  background-color: red;
-  color: white;
+  background-color: white;
+  color: red;
 }
 .section-center {
   width: 100vw;
@@ -258,7 +258,7 @@ Menu
     height: 175px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 675px) {
   .menu-item {
     width: 80%;
     transform: translateX(10%);
@@ -266,6 +266,25 @@ Menu
   .btn-container{
     overflow-x: scroll;
     padding-left: 50px;
+  }
+  .btn-container::-webkit-scrollbar {
+      width: 16px;
+      
+  }
+  
+  .btn-container::-webkit-scrollbar-track {
+      border-radius: 5px;
+      background-color: white;
+      border: 1px solid #df2020;
+      padding: 5px;
+  }
+  
+  .btn-container::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+    background-color: #df2020;
+    width: 10%;
   }
 }
 @media screen and (min-width: 1200px) {

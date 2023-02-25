@@ -85,7 +85,7 @@
     padding: 10px 50px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 675px) {
   .testimonial{
     padding: 10px 30px;
     margin-bottom: 10px;
