@@ -88,5 +88,18 @@
 @media screen and (max-width: 400px) {
   .testimonial{
     padding: 10px 30px;
+    margin-bottom: 10px;
+  }
+  .testimonial--text--div h5{
+    font-size: 16px;
+  }
+  .testimonial--text--div h2{
+    font-size: 33.6px;
+    margin: 12px 0;
+  }
+  .testimonial--text--div p{
+    font-size: 12.8px;
+    color: black;
+    line-height: normal;
   }
 }

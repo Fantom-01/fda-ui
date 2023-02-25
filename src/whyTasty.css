@@ -73,7 +73,24 @@
 @media screen and (max-width: 400px) {
     .whyTasty{
         padding: 10px 30px;
-        margin-bottom: 950px;
+        margin-bottom: 450px;
         margin-top: 20px;
-  }
+    }
+    .whyTasty div h2{
+        font-size: 2.1rem;
+    }
+    .whyTasty div p{
+        font-size: 12.3px;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+    .whyTasty div ul h5{
+        font-size: 12.8px;
+        color: black;
+        font-weight: 600;
+    }
+    .whyTasty div ul h5 .fa-check-circle{
+        font-size: 12.8px;
+        margin-right: 5px;
+    }
 }
